@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavigationBarComponent } from './components/navigation-bar/navigation-bar.component';
+import { NavigationBarComponent } from "./Masters/components/navigation-bar/navigation-bar.component";
 import { SignInPageComponent } from './pages/sign-in-page/sign-in-page.component';
 import { CartPageComponent } from './pages/cart-page/cart-page.component';
 
