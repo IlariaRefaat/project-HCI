@@ -1,0 +1,93 @@
+body {
+
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+
+}
+
+
+
+img {
+    width: 80px;
+
+}
+
+h1 {
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    border: 1px solid #ccc;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+
+
+
+}
+
+.form h2 {
+    text-align: center;
+}
+
+input[type=text],
+input[type=password] {
+    width: 300px;
+    padding: 10px 12px;
+
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    padding-top: 10px;
+
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+
+.signup {
+    position: relative;
+    align-items: center;
+    /* margin-left: 45%; */
+    text-align: center;
+
+}
+
+.signup a {
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+    position: relative;
+    align-items: center;
+    margin-left: 40%;
+
+}

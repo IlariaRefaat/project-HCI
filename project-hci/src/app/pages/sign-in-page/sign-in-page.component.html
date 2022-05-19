@@ -1,1 +1,27 @@
-<p>sign-in-page works!</p>
+<div class="logo">
+  <img class="image" src="assets/images/ticketak-logos_black.png" alt="logo" />
+  <h1>TicketOrLeaveIt</h1>
+</div>
+<div class="form">
+  <form [formGroup]="loginForm" (ngSubmit)="onsubmit()">
+    <h2>Log In</h2>
+    <div class="container">
+      <input type="text" formControlName="email" placeholder="Enter Email" />
+      <span *ngIf="email?.invalid && email?.touched" class="error"
+        >email is required</span
+      ><br />
+      <input
+        type="password"
+        formControlName="password"
+        placeholder="Enter Password"
+      />
+      <span *ngIf="password?.invalid && password?.touched" class="error"
+        >Password is required</span
+      ><br />
+      <button type="submit">Login</button>
+      <div class="signup">
+        <p><b>Create Account</b> <a routerLink="/sign-up"> Sing Up </a></p>
+      </div>
+    </div>
+  </form>
+</div>
