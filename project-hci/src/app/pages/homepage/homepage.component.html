@@ -1,1 +1,32 @@
-<p>homepage works</p>
+<carousel [cellsToShow]="1" [autoplay]="true" [autoplayInterval]="2000" [height]="500">
+    <div class="carousel-cell">
+        <img src="http://localhost:8080/Carousel/maroon5.png">
+    </div>
+    <div class="carousel-cell">
+        <img src="http://localhost:8080/Carousel/u185.png">
+    </div>
+    <div class="carousel-cell">
+        <img src="http://localhost:8080/Carousel/u186.png">
+    </div>
+    <div class="carousel-cell">
+        <img src="http://localhost:8080/Carousel/u187.png">
+    </div>
+</carousel>
+
+<h1>Trending Now</h1>
+<carousel [cellsToShow]="4" [autoplay]="false" [height]="200" [cellWidth]="130">
+    <div class="carousel-cell">
+        <img src="http://localhost:8080/Carousel/maroon5.png">
+    </div>
+    <div class="carousel-cell">
+        <img src="http://localhost:8080/Carousel/u185.png">
+    </div>
+    <div class="carousel-cell">
+        <img src="http://localhost:8080/Carousel/u186.png">
+    </div>
+    <div class="carousel-cell">
+        <img src="http://localhost:8080/Carousel/u187.png">
+    </div>
+</carousel>
+
+
