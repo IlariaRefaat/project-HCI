@@ -5,20 +5,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationBarComponent } from "./Masters/components/navigation-bar/navigation-bar.component";
-
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationBarComponent,
-    routingComponents,
-
+    routingComponents
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
