@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 // import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 @Component({
@@ -12,5 +13,5 @@ export class HomepageComponent implements OnInit {
     { image: 'project-hcisrcassetsCarouselmaroon5.png', alt: 'Description' },
   ];
 
-  ngOnInit(): void { }
+  ngOnInit(): void {}
 }
