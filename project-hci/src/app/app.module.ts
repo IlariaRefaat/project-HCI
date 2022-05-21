@@ -28,7 +28,7 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    IvyCarouselModule
+    IvyCarouselModule,
   ],
   exports: [IvyCarouselModule],
 

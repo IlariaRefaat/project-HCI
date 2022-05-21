@@ -1,10 +1,12 @@
 a:link {
   text-decoration: none;
 }
+
 a:visited {
   color: white;
   text-decoration: none;
 }
+
 a:hover {
   color: grey;
 }
@@ -19,6 +21,7 @@ a:hover {
   margin-bottom: 0px;
   margin-left: 0px;
 }
+
 td {
   width: 400px;
   text-align: left;
@@ -50,21 +53,26 @@ td {
   height: 34px;
   padding-left: 10px;
 }
+
 div {
   display: inline-block;
   margin-right: 25px;
   color: #ffffff;
   margin-left: 10px;
 }
+
 #location {
   margin-right: 600px;
 }
+
 .grey {
   color: grey;
 }
+
 table {
   margin-bottom: 40px;
 }
+
 hr {
   margin-bottom: 40px;
 }
