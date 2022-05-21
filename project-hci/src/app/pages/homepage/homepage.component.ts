@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { IvyCarouselModule } from 'angular-responsive-carousel';
+// import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 @Component({
   selector: 'app-homepage',
@@ -12,5 +12,5 @@ export class HomepageComponent implements OnInit {
     { image: 'project-hcisrcassetsCarouselmaroon5.png', alt: 'Description' },
   ];
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 }

@@ -12,8 +12,8 @@ import { ProfileGuardService } from './services/profile-guard.service';
 
 
 import { NavigationBarComponent } from './Masters/components/navigation-bar/navigation-bar.component';
-import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { FooterComponent } from './Masters/footer/footer.component';
+import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 
 @NgModule({
@@ -22,16 +22,16 @@ import { FooterComponent } from './Masters/footer/footer.component';
     NavigationBarComponent,
     routingComponents,
     FooterComponent,
-
-
-
+    // IvyCarouselModule
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     IvyCarouselModule
-
+  ],
+  exports: [
+    IvyCarouselModule
 
   ],
 
