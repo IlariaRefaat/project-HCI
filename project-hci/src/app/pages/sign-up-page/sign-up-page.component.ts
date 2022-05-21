@@ -34,23 +34,18 @@ export class SignUpPageComponent implements OnInit {
 
 
 
-    // {
-    //   validators: this.MustMatch('password', 'confirmpassword')
-    // });
+
   }
 
 
-  // {
-  //   validators: this.MustMatch('password', 'confirmpassword')
 
-  // });
 
 
 
 
 
   ngOnInit(): void {
-    // this.initializeform();
+
   }
 
 
