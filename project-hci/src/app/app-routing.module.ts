@@ -9,7 +9,7 @@ import { SignUpPageComponent } from './pages/sign-up-page/sign-up-page.component
 
 import { ProfileGuardService } from './services/profile-guard.service';
 
-const routes: Routes = [{ path: 'homepage', component: HomepageComponent }, { path: 'profile', component: ProfilePageComponent, canActivate: [ProfileGuardService] }, { path: 'favourites', component: FavoritesPageComponent },
+const routes: Routes = [{ path: 'homepage', component: HomepageComponent }, { path: 'profile', component: ProfilePageComponent, canActivate: [ProfileGuardService] }, { path: 'favorites', component: FavoritesPageComponent },
 { path: 'sign-in', component: SignInPageComponent }, { path: 'cart', component: CartPageComponent }, { path: 'sign-up', component: SignUpPageComponent }, { path: '', component: HomepageComponent }];
 
 @NgModule({

@@ -42,9 +42,8 @@ export class SignInPageComponent implements OnInit {
     return this.loginForm.get('email')
   }
   login() {
-
     if (this.loginForm.invalid) {
-      this.authService.logOut();
+      // this.authService.logOut();
       this.router.navigate(['sign-in'])
     }
     this.authService.logIn();
