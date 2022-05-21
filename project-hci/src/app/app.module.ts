@@ -13,6 +13,7 @@ import { ProfileGuardService } from './services/profile-guard.service';
 
 import { NavigationBarComponent } from './Masters/components/navigation-bar/navigation-bar.component';
 import { FooterComponent } from './Masters/footer/footer.component';
+import { BookingPageComponent } from './pages/booking-page/booking-page.component';
 // import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 
@@ -22,6 +23,7 @@ import { FooterComponent } from './Masters/footer/footer.component';
     NavigationBarComponent,
     routingComponents,
     FooterComponent,
+    BookingPageComponent,
     // IvyCarouselModule
   ],
   imports: [
