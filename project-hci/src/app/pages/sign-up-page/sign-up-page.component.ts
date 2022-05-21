@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
@@ -11,11 +12,12 @@ import { AuthService } from 'src/app/services/auth.service';
   styleUrls: ['./sign-up-page.component.css']
 })
 export class SignUpPageComponent implements OnInit {
-  signupform: FormGroup;
+  signupForm: FormGroup;
   submitted = false;
 
-  constructor(private fb: FormBuilder, private authService: AuthService, private router: Router) {
-    this.signupform = this.fb.group({
+  constructor(private fb: FormBuilder, private authService: AuthService, private router: Router, private http: HttpClient) {
+
+    this.signupForm = this.fb.group({
       email: ['', [Validators.required]],
       name: ['', [Validators.required,]],
       dayd: ['', [Validators.required]],
@@ -32,25 +34,13 @@ export class SignUpPageComponent implements OnInit {
 
       });
 
-
-
-
   }
-
-
-
-
-
-
-
 
   ngOnInit(): void {
 
   }
 
-
-
-  get f() { return this.signupform.controls; }
+  get f() { return this.signupForm.controls; }
   MustMatch(controlName: string, matchingControlName: string) {
     return (formGroup: FormGroup) => {
       // console.log(controlName, matchingControlName)
@@ -70,53 +60,78 @@ export class SignUpPageComponent implements OnInit {
     }
 
   }
-  onsubmit(): void {
-    console.log(this.signupform);
+  onSubmit(users: User): void {
+    console.log(users)
+
+    console.log(this.signupForm);
     this.submitted = true;
 
     //stop here if form is invalid
-    if (this.signupform.invalid) {
+    if (this.signupForm.invalid) {
       // return;
       this.router.navigate(['sign-up'])
+      this.authService.logOut()
+      return
     }
     else {
-      alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.signupform.value, null, 4));
+      this.http.post('https://project-hci-d1a10-default-rtdb.firebaseio.com/users.json', users)
+        .subscribe((res) => {
+          console.log(res)
+
+        })
+      alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.signupForm.value, null, 4));
+
+
 
 
     }
-    console.log(this.signupform.valid ? true : false)
+    console.log(this.signupForm.valid ? true : false)
 
   }
-  get email() {
-    return this.signupform.get('email')
-  }
-  get password() {
-    return this.signupform.get('password')
-  }
-  get dayd() {
-    return this.signupform.get('dayd')
-  }
-  get name() {
-    return this.signupform.get('name')
-  }
-  get monthd() {
-    return this.signupform.get('monthd')
-  }
-  get yeard() {
-    return this.signupform.get('yeard')
-  }
+  // get email() {
+  //   return this.signupForm.get('email')
+  // }
+  // get password() {
+  //   return this.signupForm.get('password')
+  // }
+  // get dayd() {
+  //   return this.signupForm.get('dayd')
+  // }
+  // get name() {
+  //   return this.signupForm.get('name')
+  // }
+  // get monthd() {
+  //   return this.signupForm.get('monthd')
+  // }
+  // get yeard() {
+  //   return this.signupForm.get('yeard')
+  // }
   login() {
-    if (this.signupform.invalid) {
+    if (this.signupForm.invalid) {
       // this.authService.logOut();
       this.router.navigate(['sign-up'])
+      this.authService.logOut();
     }
-    this.authService.logIn();
+    else {
+      this.authService.logIn();
+      alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.signupForm.value, null, 4));
+
+
+    }
+
 
 
   }
 
 }
+export class User {
+  email = "";
+  password = "";
+  birthD = '';
+  birthM = '';
+  birthY = ""
 
+}
 
 
 

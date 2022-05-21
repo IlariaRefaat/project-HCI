@@ -3,12 +3,17 @@
   <h1>TicketOrLeaveIt</h1>
 </div>
 <div class="form">
-  <form [formGroup]="signupform" (ngSubmit)="onsubmit()">
+  <form [formGroup]="signupForm" (ngSubmit)="onSubmit(signupForm.value)">
     <h3>sign up with your email address</h3>
     <div class="container">
       <div class="info">
         <!--Email-->
-        <input type="text" formControlName="email" placeholder="Enter Email" />
+        <input
+          type="text"
+          formControlName="email"
+          placeholder="Enter Email"
+          name="email"
+        />
         <div>
           <span *ngIf="f.email.invalid && f.email.touched" class="error"
             >email is required</span
@@ -21,6 +26,7 @@
             type="password"
             formControlName="password"
             placeholder="Enter Password"
+            name="password"
           />
           <div>
             <span *ngIf="f.password.invalid && f.password.touched" class="error"
@@ -49,6 +55,7 @@
           type="text"
           formControlName="name"
           placeholder="what should we call you?"
+          name="name"
         />
         <div>
           <span *ngIf="f.name.invalid && f.name.touched" class="error"
@@ -64,6 +71,7 @@
           formControlName="dayd"
           type="text"
           placeholder="Day"
+          name="birthD"
         /><br />
         <div>
           <span *ngIf="f.dayd.invalid && f.dayd.touched" class="error">*</span>
@@ -73,6 +81,7 @@
           formControlName="monthd"
           type="text"
           placeholder="Month"
+          name="birthM"
         /><br />
         <div>
           <span *ngIf="f.monthd.invalid && f.monthd.touched" class="error"
@@ -84,6 +93,7 @@
           formControlName="yeard"
           type="text"
           placeholder="Year"
+          name="birthY"
         /><br />
         <div>
           <span *ngIf="f.yeard.invalid && f.yeard.touched" class="error"
@@ -123,12 +133,10 @@
       </div>
 
       <!--submit-->
-      <button type="submit" name="sub" routerLink="/sign-in" (click)="login()">
-        Sign Up
-      </button>
+      <button type="submit" name="sub" (click)="login()">Sign Up</button>
       <div class="signup">
         <p>
-          <b>Already Have an account</b> <a routerLink="/sign-in"> Log in </a>
+          <b>Already Have an account</b> <a routerLink="/homepage"> Log in </a>
         </p>
       </div>
     </div>
