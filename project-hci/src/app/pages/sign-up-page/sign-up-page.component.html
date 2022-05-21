@@ -1,1 +1,144 @@
-<p>sign-up-page works!</p>
+<div class="logo">
+  <img class="image" src="assets/images/ticketak-logos_black.png" alt="logo" />
+  <h1>TicketOrLeaveIt</h1>
+</div>
+<div class="form">
+  <form [formGroup]="signupForm" (ngSubmit)="onSubmit(signupForm.value)">
+    <h3>sign up with your email address</h3>
+    <div class="container">
+      <div class="info">
+        <!--Email-->
+        <input
+          type="text"
+          formControlName="email"
+          placeholder="Enter Email"
+          name="email"
+        />
+        <div>
+          <span *ngIf="f.email.invalid && f.email.touched" class="error"
+            >email is required</span
+          >
+        </div>
+        <br />
+        <!--Password -->
+        <div>
+          <input
+            type="password"
+            formControlName="password"
+            placeholder="Enter Password"
+            name="password"
+          />
+          <div>
+            <span *ngIf="f.password.invalid && f.password.touched" class="error"
+              >Password is required</span
+            >
+          </div>
+          <br />
+          <input
+            type="password"
+            formControlName="confirmpassword"
+            placeholder="Confirm Password"
+          />
+          <div>
+            <span
+              *ngIf="f.confirmpassword.invalid && f.confirmpassword.touched"
+              class="error"
+              >Confirm Password is required</span
+            ><br />
+            <!-- <span *ngIf="f.confirmpassword.errors.MustMatch" class="error"
+              >Passwords must match</span
+            > -->
+          </div>
+        </div>
+        <!--Name -->
+        <input
+          type="text"
+          formControlName="name"
+          placeholder="what should we call you?"
+          name="name"
+        />
+        <div>
+          <span *ngIf="f.name.invalid && f.name.touched" class="error"
+            >name is required</span
+          ><br />
+        </div>
+      </div>
+      <!--Birthday-->
+      <p class="birth">Date of birth</p>
+      <div class="box">
+        <input
+          class="day"
+          formControlName="dayd"
+          type="text"
+          placeholder="Day"
+          name="birthD"
+        /><br />
+        <div>
+          <span *ngIf="f.dayd.invalid && f.dayd.touched" class="error">*</span>
+        </div>
+        <input
+          class="month"
+          formControlName="monthd"
+          type="text"
+          placeholder="Month"
+          name="birthM"
+        /><br />
+        <div>
+          <span *ngIf="f.monthd.invalid && f.monthd.touched" class="error"
+            >*</span
+          >
+        </div>
+        <input
+          class="year"
+          formControlName="yeard"
+          type="text"
+          placeholder="Year"
+          name="birthY"
+        /><br />
+        <div>
+          <span *ngIf="f.yeard.invalid && f.yeard.touched" class="error"
+            >*</span
+          >
+        </div>
+      </div>
+      <!--Terms and Conditions-->
+      <div class="check">
+        <input
+          type="checkbox"
+          formControlName="box1"
+          id="b1"
+          value="b"
+          name="box0"
+        />
+
+        <label for="box1">
+          Please send TicketorLeaveIt marketing messages.</label
+        ><br />
+
+        <input
+          type="checkbox"
+          formControlName="box2"
+          id="b2"
+          value="bb"
+          name="box1"
+        />
+        <label for="box2"
+          >I agree to the TicketorLeaveIt
+          <a href="#terms&conditions">terms & conditions</a> and<a
+            href="#privacypolicy"
+            >Privacy Policy</a
+          >
+          .</label
+        ><br />
+      </div>
+
+      <!--submit-->
+      <button type="submit" name="sub" (click)="login()">Sign Up</button>
+      <div class="signup">
+        <p>
+          <b>Already Have an account</b> <a routerLink="/homepage"> Log in </a>
+        </p>
+      </div>
+    </div>
+  </form>
+</div>
