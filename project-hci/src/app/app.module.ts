@@ -17,6 +17,7 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
 import { UserService } from './services/user.service';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,18 +25,17 @@ import { UserService } from './services/user.service';
     routingComponents,
     FooterComponent,
     BookingPageComponent,
+
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     ReactiveFormsModule,
+
     HttpClientModule,
     IvyCarouselModule,
-    HttpClientModule,
-    IvyCarouselModule,
-    HttpClientModule,
-    IvyCarouselModule,
+
   ],
   exports: [IvyCarouselModule],
   providers: [ProfileGuardService, AuthService, UserService],

@@ -1,3 +1,53 @@
+<<<<<<< HEAD
+<carousel
+  [cellsToShow]="1"
+  [autoplay]="true"
+  [autoplayInterval]="2000"
+  [height]="500"
+>
+  <div class="carousel-cell">
+    <img src="../../../assets/Carousel/maroon5.png" />
+  </div>
+  <div class="carousel-cell">
+    <img src="../../../assets/Carousel/u185.png" />
+  </div>
+
+  <div class="carousel-cell">
+    <img src="../../../assets/Carousel/u186.png" />
+
+    <a routerLink="/booking-page"
+      ><img src="../../../assets/Carousel/maroon5.png"
+    /></a>
+  </div>
+
+  <div class="carousel-cell">
+    <img src="../../../assets/Carousel/u185.png" routeLink="/booking-page" />
+
+    <img src="../../../assets/Carousel/maroon5.png" onclick="book()" />
+  </div>
+  <div class="carousel-cell">
+    <img src="../../../assets/Carousel/u187.png" />
+  </div>
+</carousel>
+
+<h1>Trending Now</h1>
+<carousel [cellsToShow]="4" [autoplay]="false" [height]="200" [cellWidth]="130">
+  <div class="carousel-cell">
+    <img src="../../../assets/Carousel/maroon5.png" />
+  </div>
+  <div class="carousel-cell">
+    <img src="../../../assets/Carousel/u185.png" />
+  </div>
+  <div class="carousel-cell">
+    <img src="../../../assets/Carousel/u186.png" />
+  </div>
+  <div class="carousel-cell">
+    <img src="../../../assets/Carousel/u187.png" />
+  </div>
+</carousel>
+
+<a routerLink="/booking-page" routerLinkActive="active">BOOK</a>
+=======
 <body>
   <carousel
     [cellsToShow]="1"
@@ -51,3 +101,4 @@
     </div>
   </carousel>
 </body>
+>>>>>>> 93d3b2c1336e0c2304fb701e0889ff3369e73224

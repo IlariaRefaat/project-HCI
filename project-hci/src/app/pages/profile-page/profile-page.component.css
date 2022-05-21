@@ -1,4 +1,4 @@
-.ProfileNav{
+.ProfileNav {
     width: 1920px;
     height: 60px;
     padding: 2px 2px 2px 2px;
@@ -9,7 +9,8 @@
     top: 0px;
     position: relative;
 }
-.HomeBTN{
+
+.HomeBTN {
     width: 80px;
     height: 25px;
     padding: 2px 2px 2px 2px;
@@ -18,7 +19,8 @@
     position: absolute;
     font-size: 20px;
 }
-.NotifyBTN{
+
+.NotifyBTN {
     width: 80px;
     height: 25px;
     padding: 2px 2px 2px 2px;
@@ -27,7 +29,8 @@
     position: absolute;
     font-size: 20px;
 }
-.MsgBTN{
+
+.MsgBTN {
     width: 80px;
     height: 25px;
     padding: 2px 2px 2px 2px;
@@ -36,7 +39,8 @@
     position: absolute;
     font-size: 20px;
 }
-.UNbtn{
+
+.UNbtn {
     width: 100px;
     height: 25px;
     padding: 2px 2px 2px 2px;
@@ -45,7 +49,8 @@
     position: absolute;
     font-size: 20px;
 }
-.ProfilePicNav{
+
+.ProfilePicNav {
     width: 37px;
     height: 37px;
     padding: 2px 2px 2px 2px;
@@ -57,7 +62,8 @@
     top: 10px;
     position: absolute;
 }
-.CoverPic{
+
+.CoverPic {
     width: 1920px;
     height: 281px;
     padding: 2px 2px 2px 2px;
@@ -68,7 +74,8 @@
     top: 0px;
     position: relative;
 }
-.ProfilePic{
+
+.ProfilePic {
     width: 170px;
     height: 170px;
     padding: 2px 2px 2px 2px;
@@ -80,7 +87,8 @@
     position: relative;
     border-radius: 85px;
 }
-.UserName{
+
+.UserName {
     width: 100px;
     height: 40px;
     padding: 2px 2px 2px 2px;
@@ -90,7 +98,8 @@
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.Desc{
+
+.Desc {
     width: 488px;
     height: 473px;
     padding: 2px 2px 2px 2px;
@@ -106,7 +115,8 @@
     left: 95px;
     position: relative;
 }
-.PrevBoughtTickets{
+
+.PrevBoughtTickets {
     width: 1155px;
     height: 623px;
     padding: 2px 2px 2px 2px;
@@ -123,7 +133,8 @@
     margin-bottom: -473px;
     position: relative;
 }
-.M5Event{
+
+.M5Event {
     width: 300px;
     height: 40px;
     padding: 2px 2px 2px 2px;
@@ -132,9 +143,10 @@
     position: absolute;
     text-align: right;
     font-size: 16px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.M5img{
+
+.M5img {
     width: 590px;
     height: 209px;
     box-sizing: border-box;
@@ -142,7 +154,8 @@
     text-align: center;
     position: relative;
 }
-.Da7ee7Event{
+
+.Da7ee7Event {
     width: 500px;
     height: 40px;
     padding: 2px 2px 2px 2px;
@@ -151,9 +164,10 @@
     position: absolute;
     text-align: right;
     font-size: 16px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.Da7ee7img{
+
+.Da7ee7img {
     width: 590px;
     height: 209px;
     box-sizing: border-box;
@@ -161,7 +175,8 @@
     text-align: center;
     position: relative;
 }
-.Booking{
+
+.Booking {
     width: 500px;
     height: 40px;
     padding: 2px 2px 2px 2px;
@@ -172,9 +187,10 @@
     font-size: 20px;
     text-decoration: underline;
     color: blue;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.SMBox{
+
+.SMBox {
     width: 488px;
     height: 138px;
     padding: 2px 2px 2px 2px;
@@ -190,27 +206,30 @@
     top: 1120px;
     position: absolute;
 }
-.Insta{
+
+.Insta {
     width: 70px;
     height: 70px;
     box-sizing: border-box;
     left: 200px;
     top: 57px;
-    position:absolute;
+    position: absolute;
 }
-.Face{
+
+.Face {
     width: 31px;
     height: 70px;
     box-sizing: border-box;
     left: 72px;
     top: 57px;
-    position:absolute;
+    position: absolute;
 }
-.Twitter{
+
+.Twitter {
     width: 70px;
     height: 70px;
     box-sizing: border-box;
     right: 35px;
     top: 57px;
-    position:absolute;
+    position: absolute;
 }

@@ -12,10 +12,12 @@ export class HomepageComponent implements OnInit {
   events = [
     { image: 'project-hcisrcassetsCarouselmaroon5.png', alt: 'Description' },
   ];
-  constructor(private router: Router) {}
 
-  ngOnInit(): void {}
+  constructor(private router: Router) { }
+
+  ngOnInit(): void { }
   book(): void {
     this.router.navigate(['booking-page']);
   }
+
 }
