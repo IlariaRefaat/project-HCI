@@ -5,6 +5,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationBarComponent } from "./Masters/components/navigation-bar/navigation-bar.component";
+import { AuthService } from './services/auth.service';
+import { ProfileGuardService } from './services/profile-guard.service';
 
 
 
@@ -20,7 +22,7 @@ import { NavigationBarComponent } from "./Masters/components/navigation-bar/navi
     AppRoutingModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [ProfileGuardService, AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
