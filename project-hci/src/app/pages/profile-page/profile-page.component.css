@@ -1,196 +1,197 @@
+div {
+  display: inline-block;
+}
 .ProfileNav {
-    width: 1920px;
-    height: 60px;
-    padding: 2px 2px 2px 2px;
-    border: 1px solid rgba(121, 121, 121, 0);
-    background-color: #f5f5f5;
-    box-sizing: border-box;
-    left: 0px;
-    top: 0px;
-    position: relative;
+  width: 100%;
+  height: 60px;
+  padding: 2px 2px 2px 2px;
+  border: 1px solid rgba(121, 121, 121, 0);
+  background-color: #f5f5f5;
+  box-sizing: border-box;
 }
 
 .HomeBTN {
-    width: 80px;
-    height: 25px;
-    padding: 2px 2px 2px 2px;
-    left: 608px;
-    top: 18px;
-    position: absolute;
-    font-size: 20px;
+  width: 80px;
+  height: 25px;
+  padding: 2px 2px 2px 2px;
+  left: 608px;
+  top: 18px;
+  position: absolute;
+  font-size: 20px;
 }
 
 .NotifyBTN {
-    width: 80px;
-    height: 25px;
-    padding: 2px 2px 2px 2px;
-    left: 880px;
-    top: 18px;
-    position: absolute;
-    font-size: 20px;
+  width: 80px;
+  height: 25px;
+  padding: 2px 2px 2px 2px;
+  left: 880px;
+  top: 18px;
+  position: absolute;
+  font-size: 20px;
 }
 
 .MsgBTN {
-    width: 80px;
-    height: 25px;
-    padding: 2px 2px 2px 2px;
-    left: 1182px;
-    top: 18px;
-    position: absolute;
-    font-size: 20px;
+  width: 80px;
+  height: 25px;
+  padding: 2px 2px 2px 2px;
+  top: 18px;
+  position: absolute;
+  font-size: 20px;
 }
 
 .UNbtn {
-    width: 100px;
-    height: 25px;
-    padding: 2px 2px 2px 2px;
-    left: 1651px;
-    top: 18px;
-    position: absolute;
-    font-size: 20px;
+  width: 100px;
+  height: 25px;
+  padding: 2px 2px 2px 2px;
+  top: 18px;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 0px;
 }
 
 .ProfilePicNav {
-    width: 37px;
-    height: 37px;
-    padding: 2px 2px 2px 2px;
-    border: 1px solid #797979;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    border-radius: 18.5px;
-    left: 1816px;
-    top: 10px;
-    position: absolute;
+  width: 37px;
+  height: 37px;
+  padding: 2px 2px 2px 2px;
+  border: 1px solid #797979;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  border-radius: 18.5px;
+  top: 10px;
+  margin-right: 0px;
 }
-
+li {
+  float: right;
+}
 .CoverPic {
-    width: 1920px;
-    height: 281px;
-    padding: 2px 2px 2px 2px;
-    border: 1px solid #797979;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    left: 0px;
-    top: 0px;
-    overflow: hidden;
-    position: relative;
-    background-size: cover;
+  width: 100%;
+  height: 281px;
+  padding: 2px 2px 2px 2px;
+  border: 1px solid #797979;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
 }
 
 .ProfilePic {
-    width: 170px;
-    height: 170px;
-    padding: 2px 2px 2px 2px;
-    border: 1px solid #797979;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    left: 39px;
-    top: -90px;
-    overflow: hidden;
-    position: relative;
-    border-radius: 85px;
+  width: 170px;
+  height: 170px;
+  padding: 2px 2px 2px 2px;
+  border: 1px solid #797979;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  left: 39px;
+  top: -90px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 85px;
 }
 
 .UserName {
-    width: 100px;
-    height: 40px;
-    padding: 2px 2px 2px 2px;
-    left: 224px;
-    top: 483px;
-    position: absolute;
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100px;
+  height: 40px;
+  padding: 2px 2px 2px 2px;
+  left: 224px;
+  top: 483px;
+  position: absolute;
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .Desc {
-    width: 488px;
-    height: 473px;
-    padding: 2px 2px 2px 2px;
-    border: 1px solid #797979;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
-    font-family: 'Arial', sans-serif;
-    font-size: 20px;
-    color: #333333;
-    text-align: center;
-    line-height: normal;
-    left: 95px;
-    position: relative;
+  width: 100%;
+  height: 473px;
+  padding: 2px 2px 2px 2px;
+  border: 1px solid #797979;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
+  line-height: normal;
+  left: 95px;
+  position: relative;
 }
 
 .PrevBoughtTickets {
-    width: 1155px;
-    height: 623px;
-    padding: 2px 2px 2px 2px;
-    border: 1px solid #797979;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    color: #333333;
-    text-align: center;
-    line-height: normal;
-    left: 674px;
-    top: -473px;
-    margin-bottom: -473px;
-    position: relative;
+  width: fit-content;
+  height: 623px;
+  padding: 2px 2px 2px 2px;
+  border: 1px solid #797979;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
+  line-height: normal;
+  left: 674px;
+  top: -473px;
+  margin-bottom: -473px;
+  position: relative;
 }
 
 .M5Event {
-    width: 300px;
-    height: 40px;
-    padding: 2px 2px 2px 2px;
-    left: 375px;
-    top: 80px;
-    position: absolute;
-    text-align: right;
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 300px;
+  height: 40px;
+  padding: 2px 2px 2px 2px;
+  left: 375px;
+  top: 80px;
+  position: absolute;
+  text-align: right;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .M5img {
-    width: 590px;
-    height: 209px;
-    box-sizing: border-box;
-    top: 20px;
-    text-align: center;
-    position: relative;
+  width: 590px;
+  height: 209px;
+  box-sizing: border-box;
+  top: 20px;
+  text-align: center;
+  position: relative;
 }
 
 .Da7ee7Event {
-    width: 500px;
-    height: 40px;
-    padding: 2px 2px 2px 2px;
-    left: 290px;
-    top: 325px;
-    position: absolute;
-    text-align: right;
-    font-size: 16px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 500px;
+  height: 40px;
+  padding: 2px 2px 2px 2px;
+  left: 290px;
+  top: 325px;
+  display: block;
+  position: relative;
+  text-align: right;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .Da7ee7img {
-    width: 590px;
-    height: 209px;
-    box-sizing: border-box;
-    top: 57px;
-    text-align: center;
-    position: relative;
+  width: 590px;
+  height: 209px;
+  box-sizing: border-box;
+  top: 57px;
+  text-align: center;
+  position: relative;
 }
 
 .Booking {
-    width: 500px;
-    height: 40px;
-    padding: 2px 2px 2px 2px;
-    left: 155px;
-    top: 580px;
-    position: absolute;
-    text-align: right;
-    font-size: 20px;
-    text-decoration: underline;
-    color: blue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 500px;
+  height: 40px;
+  padding: 2px 2px 2px 2px;
+  left: 155px;
+  top: 580px;
+  position: absolute;
+  text-align: right;
+  font-size: 20px;
+  text-decoration: underline;
+  color: blue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .SMBox {
@@ -211,28 +212,28 @@
 }
 
 .Insta {
-    width: 70px;
-    height: 70px;
-    box-sizing: border-box;
-    left: 200px;
-    top: 57px;
-    position: absolute;
+  width: 70px;
+  height: 70px;
+  box-sizing: border-box;
+  left: 200px;
+  top: 57px;
+  position: absolute;
 }
 
 .Face {
-    width: 31px;
-    height: 70px;
-    box-sizing: border-box;
-    left: 72px;
-    top: 57px;
-    position: absolute;
+  width: 31px;
+  height: 70px;
+  box-sizing: border-box;
+  left: 72px;
+  top: 57px;
+  position: absolute;
 }
 
 .Twitter {
-    width: 70px;
-    height: 70px;
-    box-sizing: border-box;
-    right: 35px;
-    top: 57px;
-    position: absolute;
+  width: 70px;
+  height: 70px;
+  box-sizing: border-box;
+  right: 35px;
+  top: 57px;
+  position: absolute;
 }
