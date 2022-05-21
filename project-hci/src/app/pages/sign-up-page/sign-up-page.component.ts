@@ -2,8 +2,10 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms';
 import { Router } from '@angular/router';
+import { User } from 'src/app/classes/User';
 
 import { AuthService } from 'src/app/services/auth.service';
+import { UserService } from 'src/app/services/user.service';
 
 
 @Component({
@@ -15,7 +17,7 @@ export class SignUpPageComponent implements OnInit {
   signupForm: FormGroup;
   submitted = false;
 
-  constructor(private fb: FormBuilder, private authService: AuthService, private router: Router, private http: HttpClient) {
+  constructor(private fb: FormBuilder, private authService: AuthService, private router: Router, private http: HttpClient, private userService: UserService) {
 
     this.signupForm = this.fb.group({
       email: ['', [Validators.required]],
@@ -60,8 +62,8 @@ export class SignUpPageComponent implements OnInit {
     }
 
   }
-  onSubmit(users: User): void {
-    console.log(users)
+  onSubmit(user: User): void {
+    console.log(user)
 
     console.log(this.signupForm);
     this.submitted = true;
@@ -74,12 +76,10 @@ export class SignUpPageComponent implements OnInit {
       return
     }
     else {
-      this.http.post('https://project-hci-d1a10-default-rtdb.firebaseio.com/users.json', users)
-        .subscribe((res) => {
-          console.log(res)
 
-        })
       alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.signupForm.value, null, 4));
+      this.userService.createUser(user)
+      this.authService.logIn();
 
 
 
@@ -106,32 +106,25 @@ export class SignUpPageComponent implements OnInit {
   // get yeard() {
   //   return this.signupForm.get('yeard')
   // }
-  login() {
-    if (this.signupForm.invalid) {
-      // this.authService.logOut();
-      this.router.navigate(['sign-up'])
-      this.authService.logOut();
-    }
-    else {
-      this.authService.logIn();
-      alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.signupForm.value, null, 4));
-
-
-    }
+  // login() {
+  //   if (this.signupForm.invalid) {
+  //     // this.authService.logOut();
+  //     this.router.navigate(['sign-up'])
+  //     this.authService.logOut();
+  //   }
+  //   else {
+  //     this.authService.logIn();
 
 
 
-  }
+  //   }
 
-}
-export class User {
-  email = "";
-  password = "";
-  birthD = '';
-  birthM = '';
-  birthY = ""
+
+
+  // }
 
 }
+
 
 
 
