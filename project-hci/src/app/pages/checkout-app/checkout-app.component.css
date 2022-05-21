@@ -1,0 +1,241 @@
+body{
+    height: 850px;
+}
+*{
+    background-color: #d7d7d7;
+}
+#f1{
+    padding-top: 162px;
+    padding-left: 85px;
+    
+}
+#ba{
+    width: 140px;
+    height: 24px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: 'Century Gothic Bold', 'Century Gothic', sans-serif;
+    font-weight: 700;
+    color: #555555;
+    text-align: left;
+    line-height: normal;
+    font-size: 18px;
+}
+#tf{
+    width: 606px;
+    height: 29px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 5px;
+    border: 1px solid #797979;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    color: #999999;
+    text-align: left;
+}
+#f2{
+    padding-top: 20%;
+    padding-left: 85px;
+}
+#ba2{
+   
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  font-family: 'Century Gothic Bold', 'Century Gothic', sans-serif;
+  font-weight: 700;
+  color: #555555;
+  text-align: left;
+  line-height: normal;
+  font-size: 18px;
+}
+#op{
+    width: 85px;
+    height: 24px;
+    opacity: 0.4;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: 'Century Gothic Bold', 'Century Gothic', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    text-align: left;
+    line-height: normal;
+    display:inline;
+  }
+  #right{
+    width: 374px;
+    height: 692px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    position: relative;
+    left: 846px;
+    bottom: 480px;
+  }
+#fo1{
+    position: absolute;
+    text-align: right;
+    padding-left: 56px;
+    padding-top: 22px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: 'Century Gothic Bold', 'Century Gothic', sans-serif;
+    font-weight: 700;
+    color: #555555;
+    text-align: left;
+    line-height: normal;
+    font-size: 32px;
+}
+#fo2{
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: 'Century Gothic Bold', 'Century Gothic', sans-serif;
+    font-weight: 700;
+    color: #555555;
+    font-size: 18px;
+    line-height: normal;
+    padding-left: 127px;
+    padding-top:118px;
+}
+#ano{
+    position:absolute;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  font-family: 'Century Gothic', sans-serif;
+  color: #333333;
+  text-align: left;
+  line-height: normal;
+  padding-top: 154px;
+  padding-left: 98px;
+  font-size: 18px;
+}
+#fo3{
+    position:absolute;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  font-family: 'Century Gothic Bold', 'Century Gothic', sans-serif;
+  font-weight: 700;
+  color: #555555;
+  text-align: left;
+  line-height: normal;
+  font-size: 18px;
+  padding-top: 238px;
+  padding-left: 111px;
+}
+#anotck{
+    position: absolute;
+   
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  font-family: 'Century Gothic', sans-serif;
+  color: #333333;
+  text-align: center;
+  line-height: normal;
+  font-size: 18px;
+  padding-left: 80px;
+  padding-top: 280px;
+}
+#fo4{
+    position: absolute;
+  background-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  font-family: 'Century Gothic Bold', 'Century Gothic', sans-serif;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  line-height: normal;
+  padding-top: 376px;
+  padding-left: 62px;
+  font-size: 18px;
+}
+#p1{
+    position: absolute;
+    width: 138px;
+  height: 23px;
+  padding: 2px 2px 2px 2px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  color: #999999;
+  text-align: left;
+  left:192px;
+  top:376px;
+}
+#btn1{
+    width: 117px;
+    height: 36px;
+    border-radius: 30px;
+    background-color: #000000;
+    box-sizing: border-box;
+    font-family: 'Century Gothic Bold', 'Century Gothic', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+    text-decoration: none;
+    padding: 6px 20px;
+    position: absolute;
+    top:411px;
+    left: 130px;
+    font-size: 18px;
+}
+#btn1:hover{
+    background:#563434;
+    transition:background 0.5s;
+
+}
+#fo5{
+    position: absolute;
+    width: 121px;
+    height: 39px;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: 'Century Gothic Bold', 'Century Gothic', sans-serif;
+    font-weight: 700;
+    color: #555555;
+    text-align: left;
+    line-height: normal;
+    font-size: 28px;
+    top:499px;
+    left:64px;
+}
+#price{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight:lighter;
+    color: #555555;
+    text-align: left;
+    line-height: normal;
+    top:506px;
+    left:269px;
+    font-size: 18px;
+    display: inline;
+  }
+#btn2{
+    width: 177px;
+    height: 60px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 30px;
+    border: 1px solid rgba(121, 121, 121, 0);
+    background-color: #000000;
+    box-sizing: border-box;
+    font-family: 'Century Gothic Bold', 'Century Gothic', sans-serif;
+    font-weight: 700;
+    color: #fdfdfd;
+    text-align: center;
+    line-height: normal;
+    position: absolute;
+    top: 572px;
+    left: 98px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px ;
+}
+#btn2:hover{
+    background:#563434;
+    transition:background 0.5s; 
+}
