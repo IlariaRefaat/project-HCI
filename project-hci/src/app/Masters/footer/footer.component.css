@@ -23,13 +23,14 @@ td {
   width: 400px;
   text-align: left;
   height: 12px;
+  font-size: 10px;
   font-family: "Arial", sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   color: #ffffff;
   line-height: normal;
   padding-top: 20px;
   padding-left: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 #logos {
@@ -38,7 +39,7 @@ td {
   text-align: right;
   line-height: normal;
   padding-top: 50px;
-  right: 30px;
+  right: 60px;
   z-index: 1;
   position: absolute;
 }
@@ -48,4 +49,22 @@ td {
   width: 34px;
   height: 34px;
   padding-left: 10px;
+}
+div {
+  display: inline-block;
+  margin-right: 25px;
+  color: #ffffff;
+  margin-left: 10px;
+}
+#location {
+  margin-right: 600px;
+}
+.grey {
+  color: grey;
+}
+table {
+  margin-bottom: 40px;
+}
+hr {
+  margin-bottom: 40px;
 }
