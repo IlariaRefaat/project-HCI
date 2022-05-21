@@ -1,0 +1,135 @@
+body {
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+
+
+}
+
+img {
+    width: 80px;
+    margin-left: 35%;
+}
+
+.form {
+    position: relative;
+    border: 1px solid #ccc;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+
+
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.info input[type=text],
+input[type=password] {
+    width: 300px;
+    padding: 10px 12px;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+    margin-left: 32%;
+    padding: 10px;
+
+}
+
+.box input[type=text] {
+    align-items: center;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    align-self: normal;
+}
+
+.box .day {
+    width: 90px;
+}
+
+.box .month {
+    width: 150px;
+}
+
+.box .year {
+    width: 100px;
+}
+
+.birth {
+    margin-left: 35%;
+    margin-bottom: 0px;
+}
+
+.check {
+    margin-left: 35%;
+    padding-bottom: 20px;
+}
+
+.check a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.check a:hover {
+    color: black;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 14px 20px;
+    padding-top: 10px;
+    margin-left: 40%;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.container {
+    padding: 16px;
+    align-items: center;
+}
+
+.signup {
+    position: relative;
+    align-items: center;
+    margin-left: 42%;
+}
+
+.signup a {
+    text-decoration: none;
+}
+
+.error {
+    color: red;
+    position: relative;
+    align-items: center;
+    margin-left: 35%;
+    padding-top: 0px;
+
+}
