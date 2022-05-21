@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <body>
   <carousel
     [cellsToShow]="1"
@@ -7,20 +6,28 @@
     [height]="500"
   >
     <div class="carousel-cell">
-      <img src="../../../assets/Carousel/maroon5.png" onclick="book()" />
+      <a routerLink="/booking-page"
+        ><img src="../../../assets/Carousel/maroon5.png"
+      /></a>
     </div>
     <div class="carousel-cell">
-      <img src="../../../assets/Carousel/u185.png" />
+      <a routerLink="/booking-page">
+        <img src="../../../assets/Carousel/u185.png" routeLink="/booking-page"
+      /></a>
     </div>
     <div class="carousel-cell">
-      <img src="../../../assets/Carousel/u186.png" />
+      <a routerLink="/booking-page">
+        <img src="../../../assets/Carousel/u186.png" routeLink="/booking-page"
+      /></a>
     </div>
     <div class="carousel-cell">
-      <img src="../../../assets/Carousel/u187.png" />
+      <a routerLink="/booking-page">
+        <img src="../../../assets/Carousel/u187.png" routeLink="/booking-page"
+      /></a>
     </div>
   </carousel>
 
-  <h1>Trending Now</h1>
+  <h2>Trending Now</h2>
   <carousel
     [cellsToShow]="4"
     [autoplay]="false"
@@ -28,62 +35,19 @@
     [cellWidth]="130"
   >
     <div class="carousel-cell">
-      <img src="../../../assets/Carousel/maroon5.png" />
+      <img
+        src="../../../assets/Carousel/maroon5.png"
+        routeLink="/booking-page"
+      />
     </div>
     <div class="carousel-cell">
-      <img src="../../../assets/Carousel/u185.png" />
+      <img src="../../../assets/Carousel/u185.png" routeLink="/booking-page" />
     </div>
     <div class="carousel-cell">
-      <img src="../../../assets/Carousel/u186.png" />
+      <img src="../../../assets/Carousel/u186.png" routeLink="/booking-page" />
     </div>
     <div class="carousel-cell">
-      <img src="../../../assets/Carousel/u187.png" />
+      <img src="../../../assets/Carousel/u187.png" routeLink="/booking-page" />
     </div>
   </carousel>
 </body>
-=======
-<carousel
-  [cellsToShow]="1"
-  [autoplay]="true"
-  [autoplayInterval]="2000"
-  [height]="500"
->
-  <div class="carousel-cell">
-<<<<<<< HEAD
-    <a routerLink="/booking-page"
-      ><img src="../../../assets/Carousel/maroon5.png"
-    /></a>
-  </div>
-
-  <div class="carousel-cell">
-    <img src="../../../assets/Carousel/u185.png" routeLink="/booking-page" />
-=======
-    <img src="../../../assets/Carousel/maroon5.png" onclick="book()" />
->>>>>>> cc7204a67b5920b95c36cfa76cec92d54df3736a
-  </div>
-  <div class="carousel-cell">
-    <img src="../../../assets/Carousel/u186.png" routeLink="/booking-page" />
-  </div>
-  <div class="carousel-cell">
-    <img src="../../../assets/Carousel/u187.png" routeLink="/booking-page" />
-  </div>
-</carousel>
-
-<h1>Trending Now</h1>
-<carousel [cellsToShow]="4" [autoplay]="false" [height]="200" [cellWidth]="130">
-  <div class="carousel-cell">
-    <img src="../../../assets/Carousel/maroon5.png" routeLink="/booking-page" />
-  </div>
-  <div class="carousel-cell">
-    <img src="../../../assets/Carousel/u185.png" routeLink="/booking-page" />
-  </div>
-  <div class="carousel-cell">
-    <img src="../../../assets/Carousel/u186.png" routeLink="/booking-page" />
-  </div>
-  <div class="carousel-cell">
-    <img src="../../../assets/Carousel/u187.png" routeLink="/booking-page" />
-  </div>
-</carousel>
-
-<a routerLink="/booking-page" routerLinkActive="active">BOOK</a>
->>>>>>> a7640e4cecb20207eaafc183958d22a8d4cca719
