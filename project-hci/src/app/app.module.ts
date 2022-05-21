@@ -24,14 +24,17 @@ import { FooterComponent } from './Masters/footer/footer.component';
     FooterComponent,
 
 
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    IvyCarouselModule,
+    IvyCarouselModule
+
 
   ],
+
 
 
   providers: [ProfileGuardService, AuthService],
