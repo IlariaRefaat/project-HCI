@@ -8,11 +8,8 @@ import { Router } from '@angular/router';
 })
 export class CheckoutAppComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor() { }
 
   ngOnInit(): void {
-  }
-  checkout(): void {
-    this.router.navigate(['checkout-app'])
   }
 }
