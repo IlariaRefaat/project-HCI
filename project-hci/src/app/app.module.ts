@@ -13,9 +13,12 @@ import { NavigationBarComponent } from './Masters/components/navigation-bar/navi
 import { FooterComponent } from './Masters/footer/footer.component';
 import { BookingPageComponent } from './pages/booking-page/booking-page.component';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 84a1828396bd83ced1394c9d7a9b062ca5380e5a
 
 @NgModule({
   declarations: [
@@ -24,13 +27,17 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
     routingComponents,
     FooterComponent,
     BookingPageComponent,
+<<<<<<< HEAD
 
+=======
+>>>>>>> 84a1828396bd83ced1394c9d7a9b062ca5380e5a
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     ReactiveFormsModule,
+<<<<<<< HEAD
 
 
     HttpClientModule,
@@ -38,10 +45,14 @@ import { IvyCarouselModule } from 'angular-responsive-carousel';
     IvyCarouselModule
 
 
+=======
+    HttpClientModule,
+    IvyCarouselModule,
+>>>>>>> 84a1828396bd83ced1394c9d7a9b062ca5380e5a
   ],
   exports: [IvyCarouselModule],
 
   providers: [ProfileGuardService, AuthService],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
