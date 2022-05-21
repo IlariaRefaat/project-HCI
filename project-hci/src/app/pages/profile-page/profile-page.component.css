@@ -1,19 +1,19 @@
 .ProfileNav{
-    width: 1200px;
+    width: 1920px;
     height: 60px;
     padding: 2px 2px 2px 2px;
     border: 1px solid rgba(121, 121, 121, 0);
     background-color: #f5f5f5;
     box-sizing: border-box;
     left: 0px;
-    top: 120px;
+    top: 0px;
     position: relative;
 }
 .HomeBTN{
     width: 80px;
     height: 25px;
     padding: 2px 2px 2px 2px;
-    left: 380px;
+    left: 608px;
     top: 18px;
     position: absolute;
     font-size: 20px;
@@ -22,7 +22,7 @@
     width: 80px;
     height: 25px;
     padding: 2px 2px 2px 2px;
-    left: 550px;
+    left: 880px;
     top: 18px;
     position: absolute;
     font-size: 20px;
@@ -31,7 +31,7 @@
     width: 80px;
     height: 25px;
     padding: 2px 2px 2px 2px;
-    left: 739px;
+    left: 1182px;
     top: 18px;
     position: absolute;
     font-size: 20px;
@@ -40,7 +40,7 @@
     width: 100px;
     height: 25px;
     padding: 2px 2px 2px 2px;
-    left: 1032px;
+    left: 1651px;
     top: 18px;
     position: absolute;
     font-size: 20px;
@@ -53,19 +53,19 @@
     background-color: #ffffff;
     box-sizing: border-box;
     border-radius: 18.5px;
-    left: 1135px;
+    left: 1816px;
     top: 10px;
     position: absolute;
 }
 .CoverPic{
-    width: 1200px;
+    width: 1920px;
     height: 281px;
     padding: 2px 2px 2px 2px;
     border: 1px solid #797979;
     background-color: #ffffff;
     box-sizing: border-box;
     left: 0px;
-    top: 120px;
+    top: 0px;
     position: relative;
 }
 .ProfilePic{
@@ -76,7 +76,7 @@
     background-color: #ffffff;
     box-sizing: border-box;
     left: 39px;
-    top: 30px;
+    top: -90px;
     position: relative;
     border-radius: 85px;
 }
@@ -91,7 +91,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .Desc{
-    width: 305px;
+    width: 488px;
     height: 473px;
     padding: 2px 2px 2px 2px;
     border: 1px solid #797979;
@@ -103,12 +103,11 @@
     color: #333333;
     text-align: center;
     line-height: normal;
-    left: 59px;
-    top: 621px;
-    position: absolute;
+    left: 95px;
+    position: relative;
 }
 .PrevBoughtTickets{
-    width: 722px;
+    width: 1155px;
     height: 623px;
     padding: 2px 2px 2px 2px;
     border: 1px solid #797979;
@@ -119,18 +118,19 @@
     color: #333333;
     text-align: center;
     line-height: normal;
-    left: 421px;
-    top: 621px;
-    position: absolute;;
+    left: 674px;
+    top: -473px;
+    margin-bottom: -473px;
+    position: relative;
 }
 .M5Event{
     width: 300px;
     height: 40px;
     padding: 2px 2px 2px 2px;
-    left: 211px;
+    left: 375px;
     top: 80px;
     position: absolute;
-    text-align: center;
+    text-align: right;
     font-size: 16px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -146,10 +146,10 @@
     width: 500px;
     height: 40px;
     padding: 2px 2px 2px 2px;
-    left: 123px;
+    left: 290px;
     top: 325px;
     position: absolute;
-    text-align: center;
+    text-align: right;
     font-size: 16px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -165,17 +165,17 @@
     width: 500px;
     height: 40px;
     padding: 2px 2px 2px 2px;
-    left: 123px;
+    left: 155px;
     top: 580px;
     position: absolute;
-    text-align: center;
+    text-align: right;
     font-size: 20px;
     text-decoration: underline;
     color: blue;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .SMBox{
-    width: 305px;
+    width: 488px;
     height: 138px;
     padding: 2px 2px 2px 2px;
     border: 1px solid #797979;
@@ -186,15 +186,15 @@
     text-align: center;
     line-height: normal;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
-    left: 59px;
-    top: 1106px;
+    left: 103px;
+    top: 1120px;
     position: absolute;
 }
 .Insta{
     width: 70px;
     height: 70px;
     box-sizing: border-box;
-    left: 115px;
+    left: 200px;
     top: 57px;
     position:absolute;
 }
@@ -202,7 +202,7 @@
     width: 31px;
     height: 70px;
     box-sizing: border-box;
-    left: 45px;
+    left: 72px;
     top: 57px;
     position:absolute;
 }
@@ -210,7 +210,7 @@
     width: 70px;
     height: 70px;
     box-sizing: border-box;
-    right: 22px;
+    right: 35px;
     top: 57px;
     position:absolute;
 }
