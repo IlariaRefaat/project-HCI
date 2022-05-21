@@ -4,3 +4,6 @@ h1 {
 .carousel-cell {
   z-index: -1;
 }
+carousel {
+  z-index: -1;
+}
