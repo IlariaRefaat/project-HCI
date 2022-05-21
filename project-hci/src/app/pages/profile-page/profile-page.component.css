@@ -1,0 +1,216 @@
+.ProfileNav{
+    width: 1200px;
+    height: 60px;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid rgba(121, 121, 121, 0);
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+    left: 0px;
+    top: 120px;
+    position: relative;
+}
+.HomeBTN{
+    width: 80px;
+    height: 25px;
+    padding: 2px 2px 2px 2px;
+    left: 380px;
+    top: 18px;
+    position: absolute;
+    font-size: 20px;
+}
+.NotifyBTN{
+    width: 80px;
+    height: 25px;
+    padding: 2px 2px 2px 2px;
+    left: 550px;
+    top: 18px;
+    position: absolute;
+    font-size: 20px;
+}
+.MsgBTN{
+    width: 80px;
+    height: 25px;
+    padding: 2px 2px 2px 2px;
+    left: 739px;
+    top: 18px;
+    position: absolute;
+    font-size: 20px;
+}
+.UNbtn{
+    width: 100px;
+    height: 25px;
+    padding: 2px 2px 2px 2px;
+    left: 1032px;
+    top: 18px;
+    position: absolute;
+    font-size: 20px;
+}
+.ProfilePicNav{
+    width: 37px;
+    height: 37px;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #797979;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 18.5px;
+    left: 1135px;
+    top: 10px;
+    position: absolute;
+}
+.CoverPic{
+    width: 1200px;
+    height: 281px;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #797979;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    left: 0px;
+    top: 120px;
+    position: relative;
+}
+.ProfilePic{
+    width: 170px;
+    height: 170px;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #797979;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    left: 39px;
+    top: 30px;
+    position: relative;
+    border-radius: 85px;
+}
+.UserName{
+    width: 100px;
+    height: 40px;
+    padding: 2px 2px 2px 2px;
+    left: 224px;
+    top: 483px;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Desc{
+    width: 305px;
+    height: 473px;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #797979;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    left: 59px;
+    top: 621px;
+    position: absolute;
+}
+.PrevBoughtTickets{
+    width: 722px;
+    height: 623px;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #797979;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    left: 421px;
+    top: 621px;
+    position: absolute;;
+}
+.M5Event{
+    width: 300px;
+    height: 40px;
+    padding: 2px 2px 2px 2px;
+    left: 211px;
+    top: 80px;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.M5img{
+    width: 590px;
+    height: 209px;
+    box-sizing: border-box;
+    top: 20px;
+    text-align: center;
+    position: relative;
+}
+.Da7ee7Event{
+    width: 500px;
+    height: 40px;
+    padding: 2px 2px 2px 2px;
+    left: 123px;
+    top: 325px;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Da7ee7img{
+    width: 590px;
+    height: 209px;
+    box-sizing: border-box;
+    top: 57px;
+    text-align: center;
+    position: relative;
+}
+.Booking{
+    width: 500px;
+    height: 40px;
+    padding: 2px 2px 2px 2px;
+    left: 123px;
+    top: 580px;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.SMBox{
+    width: 305px;
+    height: 138px;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #797979;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-family: 'Poppins Bold', 'Poppins Regular', 'Poppins', sans-serif;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.35);
+    left: 59px;
+    top: 1106px;
+    position: absolute;
+}
+.Insta{
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    left: 115px;
+    top: 57px;
+    position:absolute;
+}
+.Face{
+    width: 31px;
+    height: 70px;
+    box-sizing: border-box;
+    left: 45px;
+    top: 57px;
+    position:absolute;
+}
+.Twitter{
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    right: 22px;
+    top: 57px;
+    position:absolute;
+}
