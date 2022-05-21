@@ -15,6 +15,7 @@ import { BookingPageComponent } from './pages/booking-page/booking-page.componen
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 
 import { UserService } from './services/user.service';
+import { CheckoutAppComponent } from './pages/checkout-app/checkout-app.component';
 
 
 
@@ -25,6 +26,7 @@ import { UserService } from './services/user.service';
     routingComponents,
     FooterComponent,
     BookingPageComponent,
+    CheckoutAppComponent,
 
   ],
   imports: [
