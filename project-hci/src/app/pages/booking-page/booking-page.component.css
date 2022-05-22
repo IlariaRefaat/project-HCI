@@ -77,10 +77,11 @@ label{
     font-family: 'Century Gothic Bold', 'Century Gothic', sans-serif;
     font-weight: 700;
     color: #ffffff;
-
     line-height: normal;
     text-decoration: none;
     padding: 7px 15px;
+    position: relative;
+    bottom: 15px;
 }
 #btn:hover{
     background:#563434;
