@@ -13,12 +13,12 @@ import { CheckoutAppComponent } from './pages/checkout-app/checkout-app.componen
 import { ProfileGuardService } from './services/profile-guard.service';
 
 const routes: Routes = [{ path: 'homepage', component: HomepageComponent }, { path: 'profile', component: ProfilePageComponent, canActivate: [ProfileGuardService] }, { path: 'favorites', component: FavoritesPageComponent },
-<<<<<<< HEAD
+
 { path: 'sign-in', component: SignInPageComponent }, { path: 'cart', component: CartPageComponent }, { path: 'sign-up', component: SignUpPageComponent },
-{ path: '', component: HomepageComponent }, { path: 'booking-page', component: BookingPageComponent }, { path: "events", component: EventPageComponent }];
-=======
-{ path: 'sign-in', component: SignInPageComponent }, { path: 'cart', component: CartPageComponent }, { path: 'sign-up', component: SignUpPageComponent }, { path: '', component: HomepageComponent }, { path: 'booking-page', component: BookingPageComponent }, {path: 'checkout-app', component: CheckoutAppComponent}];
->>>>>>> 31a0234245e30394925cfa3d86052982f91de95f
+{ path: '', component: HomepageComponent }, { path: 'booking-page', component: BookingPageComponent }, { path: "events", component: EventPageComponent }, { path: 'checkout-app', component: CheckoutAppComponent }];
+
+
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -14,17 +14,17 @@ import { FooterComponent } from './Masters/footer/footer.component';
 import { BookingPageComponent } from './pages/booking-page/booking-page.component';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 
-<<<<<<< HEAD
+
 import { HttpService } from './services/http.service';
 import { EventPageComponent } from './pages/event-page/event-page.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatTableModule } from '@angular/material/table'
 
-=======
-import { UserService } from './services/user.service';
+
+
 import { CheckoutAppComponent } from './pages/checkout-app/checkout-app.component';
->>>>>>> 31a0234245e30394925cfa3d86052982f91de95f
+
 
 
 
