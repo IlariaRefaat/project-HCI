@@ -45,7 +45,9 @@
               class="error"
               >Confirm Password is required</span
             ><br />
-            <!-- <span *ngIf="f.confirmpassword.errors.MustMatch" class="error"
+            <!-- <span
+              *ngIf="f.confirmpassword.invalid && f.confirmpassword.touched"
+              class="error"
               >Passwords must match</span
             > -->
           </div>

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BookingPageComponent } from './pages/booking-page/booking-page.component';
-import { CartPageComponent } from './pages/cart-page/cart-page.component';
+
 import { EventPageComponent } from './pages/event-page/event-page.component';
 import { FavoritesPageComponent } from './pages/favorites-page/favorites-page.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
@@ -14,7 +14,7 @@ import { ProfileGuardService } from './services/profile-guard.service';
 
 const routes: Routes = [{ path: 'homepage', component: HomepageComponent }, { path: 'profile', component: ProfilePageComponent, canActivate: [ProfileGuardService] }, { path: 'favorites', component: FavoritesPageComponent },
 
-{ path: 'sign-in', component: SignInPageComponent }, { path: 'cart', component: CartPageComponent }, { path: 'sign-up', component: SignUpPageComponent },
+{ path: 'sign-in', component: SignInPageComponent }, { path: 'sign-up', component: SignUpPageComponent },
 { path: '', component: HomepageComponent }, { path: 'booking-page', component: BookingPageComponent }, { path: "events", component: EventPageComponent }, { path: 'checkout-app', component: CheckoutAppComponent }];
 
 
@@ -25,4 +25,4 @@ const routes: Routes = [{ path: 'homepage', component: HomepageComponent }, { pa
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [HomepageComponent, ProfilePageComponent, FavoritesPageComponent, SignInPageComponent, CartPageComponent, SignUpPageComponent, BookingPageComponent, EventPageComponent]
+export const routingComponents = [HomepageComponent, ProfilePageComponent, FavoritesPageComponent, SignInPageComponent, SignUpPageComponent, BookingPageComponent, EventPageComponent]

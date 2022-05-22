@@ -28,7 +28,7 @@ export class SignUpPageComponent implements OnInit {
       password: ['', [Validators.required]],
       confirmpassword: ['', [Validators.required]],
       box1: [false, [Validators.requiredTrue]],
-      box2: [false, [Validators.requiredTrue]]
+      box2: [false, [Validators.requiredTrue]],
     },
 
       {
