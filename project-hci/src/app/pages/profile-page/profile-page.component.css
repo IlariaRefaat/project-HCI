@@ -1,16 +1,9 @@
-<<<<<<< HEAD
 html,
 body,
 .container {
-    width: 100%;
-
+  width: 100%;
 }
 
-=======
-body {
-  height: 1200px;
-}
->>>>>>> 31a0234245e30394925cfa3d86052982f91de95f
 .ProfileNav {
   width: 100%;
   height: 60px;
