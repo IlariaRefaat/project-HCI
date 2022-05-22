@@ -4,12 +4,10 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-checkout-app',
   templateUrl: './checkout-app.component.html',
-  styleUrls: ['./checkout-app.component.css']
+  styleUrls: ['./checkout-app.component.css'],
 })
 export class CheckoutAppComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 }

@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class BookingPageComponent implements OnInit {
   constructor(private router: Router) {}
-
+  
   ngOnInit(): void {}
   checkout(): void {
     this.router.navigate(['checkout-app'])

@@ -47,11 +47,9 @@ import { CheckoutAppComponent } from './pages/checkout-app/checkout-app.componen
     ReactiveFormsModule,
     MatCardModule,
     MatTableModule,
-
     HttpClientModule,
     IvyCarouselModule,
     NoopAnimationsModule,
-
 
   ],
   exports: [IvyCarouselModule],

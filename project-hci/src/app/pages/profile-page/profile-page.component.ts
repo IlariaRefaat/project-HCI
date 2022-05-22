@@ -4,18 +4,16 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-profile-page',
   templateUrl: './profile-page.component.html',
-  styleUrls: ['./profile-page.component.css']
+  styleUrls: ['./profile-page.component.css'],
 })
 export class ProfilePageComponent implements OnInit {
+  constructor(private router: Router) {}
 
-  constructor(private router: Router) { }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
   book(): void {
     this.router.navigate(['booking-page']);
   }
   home(): void {
-    this.router.navigate(['homepage'])
+    this.router.navigate(['homepage']);
   }
 }
