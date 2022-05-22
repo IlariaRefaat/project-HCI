@@ -78,6 +78,7 @@ h1 {
 
 .logo {
   width: 60px;
+  margin-left: 20px;
 }
 
 .category:hover .list {
@@ -113,4 +114,7 @@ a {
 
 a.active {
   color: red;
+}
+i {
+  margin-left: 20px;
 }
