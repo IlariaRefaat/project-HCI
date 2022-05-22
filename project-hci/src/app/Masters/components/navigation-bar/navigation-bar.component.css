@@ -51,7 +51,7 @@ h1 {
 }
 
 .dropdown li {
-  color: #eeeeee;
+  color: #757070;
   list-style-type: none;
   float: left;
   margin-left: 0px;
@@ -60,6 +60,7 @@ h1 {
 .dropdown li:hover {
   color: black;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .menu :hover .list {
@@ -114,9 +115,7 @@ a {
 
 a.active {
   color: red;
-
 }
-
 
 i {
   margin-left: 20px;
