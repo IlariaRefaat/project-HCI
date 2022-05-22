@@ -14,7 +14,12 @@ import { FooterComponent } from './Masters/footer/footer.component';
 import { BookingPageComponent } from './pages/booking-page/booking-page.component';
 import { IvyCarouselModule } from 'angular-responsive-carousel';
 
-import { UserService } from './services/user.service';
+import { HttpService } from './services/http.service';
+import { EventPageComponent } from './pages/event-page/event-page.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule } from '@angular/material/card';
+import { MatTableModule } from '@angular/material/table'
+
 
 
 
@@ -26,19 +31,25 @@ import { UserService } from './services/user.service';
     FooterComponent,
     BookingPageComponent,
 
+    EventPageComponent,
+
   ],
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     ReactiveFormsModule,
+    MatCardModule,
+    MatTableModule,
 
     HttpClientModule,
     IvyCarouselModule,
+    NoopAnimationsModule,
+
 
   ],
   exports: [IvyCarouselModule],
-  providers: [ProfileGuardService, AuthService, UserService],
+  providers: [ProfileGuardService, AuthService, HttpService],
   bootstrap: [AppComponent],
 })
 export class AppModule { }

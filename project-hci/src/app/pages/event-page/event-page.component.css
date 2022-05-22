@@ -1,0 +1,27 @@
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+table {
+    text-align: left;
+    margin: auto;
+    border: 1px solid gray;
+    width: 80%;
+    padding: 10px;
+    box-shadow: 10px 10px 10px gray;
+
+
+
+}
+
+th {
+    text-decoration: underline;
+}
+
+th,
+td {
+    border-bottom: 1px solid lightgrey;
+    padding: 10px
+}

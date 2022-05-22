@@ -1,8 +1,8 @@
 export class User {
-    email = "";
-    password = "";
-    birthD = '';
-    birthM = '';
-    birthY = ""
-
+    email: string = "";
+    password: string = "";
+    birthDay: string = '';
+    birthMonth: string = '';
+    birthYear: string = " ";
+    id: string = ""
 }

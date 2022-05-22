@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 import { User } from 'src/app/classes/User';
 
 import { AuthService } from 'src/app/services/auth.service';
-import { UserService } from 'src/app/services/user.service';
+import { HttpService } from 'src/app/services/http.service';
 
 
 @Component({
@@ -17,7 +17,7 @@ export class SignUpPageComponent implements OnInit {
   signupForm: FormGroup;
   submitted = false;
 
-  constructor(private fb: FormBuilder, private authService: AuthService, private router: Router, private http: HttpClient, private userService: UserService) {
+  constructor(private fb: FormBuilder, private authService: AuthService, private router: Router, private http: HttpClient, private httpService: HttpService) {
 
     this.signupForm = this.fb.group({
       email: ['', [Validators.required]],
@@ -78,7 +78,7 @@ export class SignUpPageComponent implements OnInit {
     else {
 
       alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.signupForm.value, null, 4));
-      this.userService.createUser(user)
+      this.httpService.createUser(user)
       this.authService.logIn();
 
 
